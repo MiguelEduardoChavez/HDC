@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ejemplo de mail</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+	<form action="mail.php" method="POST">
+		<label for="nombre">Nombre:</label>
+		<input type="text" name="nombre" id="nombre">
+		<label for="correo">e-mail</label>
+		<input type="text" name="mail" id="correo">
+		<label for="asunto">Asunto</label>
+		<input type="text" name="asunto" id="asunto">
+		<label for="mensaje">mensaje</label>
+		<textarea cols="25" rows="10" name="mensaje" id="mensaje"></textarea>
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
